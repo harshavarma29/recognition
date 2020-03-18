@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Speech To Text</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body onload="speechToText()">
+        <div class="title">
+            <h1>Speech To Text</h1>
+        </div>
+        <div class="top1">
+            <div class="home-page">
+                <form action="mainPage.html">
+                    <button class="button home-btn">Home Page</button>
+                </form>
+            </div>
+            <h3 class="ins" id="notifier"></h3>
+        </div>
+        <div class="middle-speech">
+            <div class="body-speech">
+                <textarea class="body-speech" id="addNotes" placeholder="Your speech text goes here"></textarea>
+            </div>
+            <div class="bottom">
+                <button class="button s" id="startListen">Start</button>
+                <button class="button st pause" id="paused">Stop</button>
+            </div>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

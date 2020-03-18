@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Repeat Words</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body onload="repeater()">
+        <div class="entire">
+            <div class="top-rep">
+                <h1>I am Mic</h1>
+            </div>
+            <div class="btn-repeat" id="notif">
+                <p class="mic-rep" id="mic">🎙</p>
+                <div id="divider"></div>
+            </div>
+        </div>
+        <div class="pause">
+            <button class="btn-rep st" id="stop" title="stop listening">Stop</button>
+        </div>
+        <h3 id="news">Press on the Mic to Start.</h3>
+        <div class="bottom-rep">
+            <div class="adjuster">
+                <select class="sel-text sel-text-rep" id="voice">
+                    <option alert = "Select Voice">Select Voice</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Indian Voice Female</option>
+                </select> 
+                <form action="repeatWords.html">
+                    <button class="button s start-rep" title="Restart the proces from first.">Start Again</button>
+                </form>
+                <form action="mainPage.html">
+                    <button class="button home-btn">Home Page</button>
+                </form>
+            </div>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

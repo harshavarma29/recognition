@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Text To Speech</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body onload="textSpeech()">
+        <div class="title-text">
+            <h1>Text To Speech</h1>
+        </div>
+        <div class="middle-text">
+            <div class="select-text">
+                <select class="sel-text" id="voice">
+                    <option alert = "Select Voice">Select Voice</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Indian Voice Female</option>
+                </select> 
+                <div class="home-text">
+                    <form  action="mainPage.html">
+                        <button class="button h">Home Page</button>
+                    </form>
+                </div>
+            </div>
+            <div class="body-text">
+                <textarea id="txt" placeholder="Start typing or copy something"></textarea>
+            </div>
+            <div class=btn-text>
+                <button class="button s" id="btn1">Start</button>
+                <button class="button st" id="btn2">Stop</button>
+                <button class="button r" id="btn3">Resume</button>
+            </div>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
